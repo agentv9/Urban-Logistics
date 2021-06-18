@@ -42,6 +42,7 @@
     
   }
 
+  
 
   .footer {
     max-width: 1280px;
@@ -51,6 +52,12 @@
     padding-bottom: 66px;
   }
 
+  
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
 
  .site-text {
    color: var(--text-primary);
@@ -103,7 +110,12 @@
     white-space: nowrap;
     margin-left: 1rem;
   }
-  
+
+  .live-map {
+   border-color: #2a2a38;
+ 
+  }
+
   .nav-link svg {
     width: 2rem;
     min-width: 2rem;
