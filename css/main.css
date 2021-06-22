@@ -369,6 +369,18 @@ a:hover {
 	margin: 0 auto;
 }
 
+#join {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  min-height: 100vh;
+  
+
+}
+
+
 #vote {
 	margin: 10px;
 	text-align: center;
@@ -534,9 +546,24 @@ a:hover {
   }
   
   
-
-
-
+  .container {
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 35px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+    .card {
+      text-align: center;
+      position: relative;
+      width: 325px;
+      height: 425px;
+      margin: 0 auto;
+      background: var(--bg-primary);
+      border-radius: 15px;
+      box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+    }
 
 .copyright-notice {
 	color: #30343a;
