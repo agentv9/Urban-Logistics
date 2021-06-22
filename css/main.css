@@ -143,6 +143,11 @@ a:hover {
 	text-transform: uppercase;
 }
 
+#head h2 {
+	font-size: 22px;
+	text-transform: uppercase;
+}
+
 #head h3 {
 	font-size: 22px;
 	text-transform: uppercase;
