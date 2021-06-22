@@ -455,6 +455,7 @@ a:hover {
   }
   
   .navbar-nav {
+   color: opacity(0);
     list-style: none;
     padding: 0;
     margin: 0;
@@ -464,6 +465,10 @@ a:hover {
     height: 100%;
   }
   
+  .nav-item h1 {
+    color: var(--bg-primary)
+  }
+
   .nav-item {
     width: 100%;
   }
