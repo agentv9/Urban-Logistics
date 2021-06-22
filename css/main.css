@@ -143,11 +143,6 @@ a:hover {
 	text-transform: uppercase;
 }
 
-#head h2 {
-	font-size: 22px;
-	text-transform: uppercase;
-}
-
 #head h3 {
 	font-size: 22px;
 	text-transform: uppercase;
@@ -565,7 +560,7 @@ a:hover {
       width: 325px;
       height: 425px;
       margin: 0 auto;
-      background: var(--bg-primary);
+      background: var(--bg-p);
       border-radius: 15px;
       box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
     }
