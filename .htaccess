@@ -1,10 +1,8 @@
 RewriteEngine on
 
-# Remove .html (or htm) from visible URL (permanent redirect)
-RewriteCond %{REQUEST_URI} ^/(.+)\.html?$ [nocase]
-RewriteRule ^ /%1 [L,R=301]
 
-# Quietly point back to the HTML file (temporary/undefined redirect):
-RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
 RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^ %{REQUEST_URI}.html [END]
+RewriteRule ^ %{REQUEST_URI}.html [NC,L] 
